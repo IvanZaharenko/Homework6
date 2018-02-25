@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse;
+
+}
+#get {
+    border: 1px solid black;
+    background-color: silver;
+    color: white;
+
+}
+#delete {
+    border: 1px solid black;
+    background-color: silver;
+    color: white;
+    width: 25px;
+
+}
+thead th:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+#up {
+    background-color: silver;
+    border: 1px solid black;
+    width: 3px;
+    text-align: center;
+    margin: 1px;
+}
+
+#down {
+    background-color: silver;
+    border: 1px solid black;
+    width: 3px;
+    text-align: center;
+    margin: 1px;
+}
+
+#modal{
+max-width: 70px;
+border: 1px solid #000000;
+display: none;
+    position: absolute ;
+background-color: #ffffff;
+}
+#modal span{
+    margin-left: 80%;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+#plus{
+    margin:5px 5px 0 5px;
+}
+#minus{
+    margin:5px;
+
+}
